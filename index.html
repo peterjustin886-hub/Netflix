@@ -77,39 +77,39 @@
         <div class="Asked">
             <h1> Freqently Asked Questions</h1>
             <button class="accordion">What is Netflix?</button>
-            <div class="panel">
+            <div class="lines">
                 <p>Netflix is a streaming service where you can watch movies, series, documentaries, and Netflix
                     Originals anytime you want on any supported device.</p>
             </div>
 
             <button class="accordion">How Much does Netflix cost</button>
-            <div class="panel">
+            <div class="lines">
                 <p>The price depends on the plan in your country. Plans usually range from basic to premium, with higher
                     tiers offering better video quality and more screens.</p>
             </div>
 
             <button class="accordion">Where can i watch?</button>
-            <div class="panel">
+            <div class="lines">
                 <p>You can watch Netflix on smart TVs, phones, tablets, laptops, and game consoles. You can also
                     download movies and shows on the mobile app to watch offline.</p>
 
             </div>
             <button class="accordion">How do i can cancel? </button>
-            <div class="panel">
+            <div class="lines">
                 <p>You can cancel anytime from your account settings. There are no extra fees, and your account stays
                     active until the end of the billing period.</p>
 
             </div>
 
-            <button class="accordion">What can i watch on Netflix? </button>
-            <div class="panel">
+            <button class="accordion">What can i watch on Netflix?</button>
+            <div class="lines">
                 <p>You get access to thousands of titles — movies, series, documentaries, anime, and exclusive Netflix
                     Originals. The library updates frequently.</p>
 
             </div>
 
-            <button class="accordion">is Netflix Good for kids? </button>
-            <div class="panel">
+            <button class="accordion">is Netflix Good for kids?</button>
+            <div class="lines">
                 <p>Yes. You can create a Kids profile so children only see age-appropriate content. Parental controls
                     let you set limits, block specific titles, and use a PIN for safety.</p>
 
@@ -118,5 +118,20 @@
 
 
 </body>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 </html>
