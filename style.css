@@ -189,4 +189,7 @@ button:hover {
   overflow: hidden;
   color: rgba(255, 255, 255, 0.767)
 }
-
+.numbers{
+  text-decoration-line: underline;
+  cursor: pointer;
+}
