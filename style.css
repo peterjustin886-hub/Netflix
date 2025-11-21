@@ -174,11 +174,13 @@ button:hover {
   font-size: 15px;
   transition: 0.4s;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 50px;
 }
 
 .active,
 .accordion:hover {
   background-color: #cccccc4b;
+  border-radius: 50px;
 }
 
 
@@ -189,8 +191,3 @@ button:hover {
   overflow: hidden;
   color: rgba(255, 255, 255, 0.767)
 }
-.numbers{
- text-decoration-line: underline;
-  cursor: pointer; 
-}
- 
