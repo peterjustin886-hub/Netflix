@@ -141,7 +141,7 @@ button:hover {
   align-items: center;
   text-align: center;
   transform: translateY(-31px);
-  margin: auto;
+  
 }
 
 .cartoon {
@@ -150,8 +150,9 @@ button:hover {
 }
 
 .pets {
-  width: 100%;
+  width: 70%;
   height: 310px;
+  
 }
 
 .Asked {
