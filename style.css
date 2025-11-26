@@ -141,11 +141,12 @@ button:hover {
   align-items: center;
   text-align: center;
   transform: translateY(-31px);
+  margin: auto;
 }
 
 .cartoon {
-  margin-left: 29%;
-  margin-top: 5%;
+  margin-left: 20%;
+  margin-top: 4%;
 }
 
 .pets {
@@ -174,7 +175,7 @@ button:hover {
   font-size: 15px;
   transition: 0.4s;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border-radius: 50px;
+
 }
 
 .active,
@@ -191,3 +192,4 @@ button:hover {
   overflow: hidden;
   color: rgba(255, 255, 255, 0.767)
 }
+
