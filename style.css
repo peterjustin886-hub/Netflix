@@ -31,6 +31,7 @@
 .site-navigation li {
   display: inline-block;
   margin: 1.4em 1em 1em 1em;
+
 }
 
 .test {
@@ -97,8 +98,7 @@ input:focus {
 }
 
 .squidgame {
-  display: flex;
-  justify-content: space-between;
+ margin-left: 40%;
 }
 
 button:hover {
@@ -141,7 +141,7 @@ button:hover {
   align-items: center;
   text-align: center;
   transform: translateY(-31px);
-  
+
 }
 
 .cartoon {
@@ -152,7 +152,7 @@ button:hover {
 .pets {
   width: 70%;
   height: 310px;
-  
+
 }
 
 .Asked {
@@ -186,11 +186,14 @@ button:hover {
 }
 
 
-.lines{
+.lines {
   padding: 10px;
   display: none;
-  background-color: rgba(85, 83, 83, 0); 
+  background-color: rgba(85, 83, 83, 0);
   overflow: hidden;
   color: rgba(255, 255, 255, 0.767)
 }
 
+.TV {
+  margin-left: 110px;
+}
