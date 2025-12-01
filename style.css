@@ -206,6 +206,10 @@ button:hover {
   margin-right: 180px;
 }
 .blues{
-  margin-left: 270px;
+  margin-left: 10px;
 transform: translateY(-69px);
+}
+.oranges{
+margin-left: 46px;
+transform: translateY(-110px);
 }
