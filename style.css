@@ -108,20 +108,20 @@ button:hover {
   text-align: center;
 
   margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
-  cursor: pointer;
-}
+  opacity: 0.6;     
+  transition: 0.3s;     
+  cursor: pointer;     
+}     
 
-.buttons-email:hover {
-  background-color: #831010;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
+.buttons-email:hover {     
+  background-color: #831010;     
+  border: none;     
+  color: white;     
+  text-align: center;     
+  font-size: 16px;     
+  margin: 4px 2px;     
+  opacity: 0.6;     
+  transition: 0.3s;     
   cursor: pointer;
 }
 
@@ -201,4 +201,7 @@ button:hover {
 .cp9{
   margin-left: 151px;
   transform: translateY(-70px);
+}
+.kidsstyle{
+  margin-right: 180px;
 }
